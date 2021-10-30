@@ -1,4 +1,11 @@
-GET http://localhost:8080/
+GET http://localhost:8080/?id=5
+Content-Type: application/json
+
+{
+
+}
+###
+GET http://localhost:8080
 Content-Type: application/json
 
 {
@@ -22,18 +29,18 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:8080/7
+PUT http://localhost:8080/?id=5
 Content-Type: application/json
 
 {
-    "nome": "fulano da silva nova",
+    "nome": "rogger da silva nova",
     "telefone": "(00)00000-0000",
-    "email": "fulano@gmail.com",
+    "email": "rogger@gmail.com",
     "cep": "0000-000"
 }
 
 ###
-DELETE  http://localhost:8080/7
+DELETE  http://localhost:8080/?id=11
 Content-Type: application/json
 
 {
