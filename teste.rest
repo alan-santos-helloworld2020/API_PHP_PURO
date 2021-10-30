@@ -1,0 +1,41 @@
+GET http://localhost:8080/
+Content-Type: application/json
+
+{
+
+}
+
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+    
+
+    "nome": "fulano da silva",
+    "telefone": "(00)00000-0000",
+    "email": "fulan0@gmail.com",
+    "cep": "0000-000"
+ 
+    
+}
+
+###
+PUT http://localhost:8080/7
+Content-Type: application/json
+
+{
+    "nome": "fulano da silva nova",
+    "telefone": "(00)00000-0000",
+    "email": "fulano@gmail.com",
+    "cep": "0000-000"
+}
+
+###
+DELETE  http://localhost:8080/7
+Content-Type: application/json
+
+{
+  
+}
